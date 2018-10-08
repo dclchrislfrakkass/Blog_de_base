@@ -12,13 +12,14 @@ header{
     background-color: #1b3764;
     color: white;
 }
-nav{
+.topnav{
 	position: absolute;
 	top: 150px;
 	left: 0px;
 	width: 1000px;
 	height: 50px;
 	background-color: #4ab8b8;
+	overflow: hidden;
 }
 section{
 	position: absolute;
@@ -55,4 +56,21 @@ h3{
 }
 aside p{
 	margin-left: 10px;
+}
+.topnav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover{
+	background-color: #1b3764;
+	color: white;
+}
+.active{
+	background-color: #fafccb;
+	color: #1b3764;
 }
